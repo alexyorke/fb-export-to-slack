@@ -17,7 +17,7 @@ with open(sys.argv[1], 'rb') as binary_data:
     json_file = fix_mojibake_escapes(binary_data.read())
     data = json.loads(json_file.decode('utf8'))
     for message in data['messages']:
-        if (message['type'] == "Generic") and ('sticker' not in message):
+        if (message['type'] == "Generic") and ('sticker' not in message) and 'content' in message:
 		    # messages are in milliseconds; have to divide by 1000 to get epoch
             fbMessages.append([int(message['timestamp_ms'])/1000.00, channel, str(message['sender_name']),
                                str(message['content'])])
