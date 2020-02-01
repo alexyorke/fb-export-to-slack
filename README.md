@@ -21,6 +21,5 @@ Import Facebook Messenger Group chats or single user chats into Slack. This conv
 
 ## Bugs
 
-- Unicode decoding causes single quotes to appear strangely, and so the imported messages might look a little funny sometimes. This has certainly been a struggle; if you know how to fix it please send a PR.
 - stickers and images are not imported
 - not tested with anything other than English text
