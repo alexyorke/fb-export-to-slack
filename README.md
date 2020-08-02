@@ -1,6 +1,8 @@
 # fb-export-to-slack
 Import Facebook Messenger Group chats or single user chats into Slack. This converts a Facebook Messenger JSON file export to a Slack CSV file, which can then be imported into Slack.
 
+[![Updates](https://pyup.io/repos/github/alexyorke/fb-export-to-slack/shield.svg)](https://pyup.io/repos/github/alexyorke/fb-export-to-slack/) [![Python 3](https://pyup.io/repos/github/alexyorke/fb-export-to-slack/python-3-shield.svg)](https://pyup.io/repos/github/alexyorke/fb-export-to-slack/)
+
 ## How to use
 
 ### Downloading your Facebook data
